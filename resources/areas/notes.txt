@@ -1,0 +1,13 @@
+0 = empty space (can be traversed through)
+1 = wall (face will be dynamically assigned so it fades every direction it neighbors a 0)
+2 = floor (can be traversed through)
+H = ladder
+U = ladder from which you cannot traverse off or hop on (for SECRET PASSAGE)
+7 = upper left diagonal wall
+8 = upper right diagonal wall
+4 = lower left diagonal wall
+5 = lower right diagonal wall                     __
+6 = lower right diagonal wall with floor on top =  /
+9 = lower left diagonal wall with floor on top
+E = elevator (lower part)
+F = elevator (upper part)
